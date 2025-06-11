@@ -22,10 +22,34 @@
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro eaque nulla qui minus, quam harum itaque culpa quasi mollitia amet et libero repudiandae adipisci voluptatibus nihil consequatur.
       </p>
       <!-- Node predefinito per l'inserimento dinamico della griglia -->
-      <div class="row row-cols-md-3">
+      <div class="row row-cols-md-2 row-cols-lg-3">
       </div>
-      <form>
-        
+    </div>
+    <div id="form-container" class="m-auto">
+      <h2 class="text-center my-5">
+        Aggiungi un membro al team!
+      </h2>
+      <form class="row g-3">
+        <div class="col-12 col-md-6">
+          <label for="inputName" class="form-label">Name</label>
+          <input type="text" class="form-control" id="inputName" placeholder="Maria Rossi">
+        </div>
+        <div class="col-12 col-md-6">
+          <label for="inputRuolo" class="form-label">Ruolo</label>
+          <input type="text" class="form-control" id="inputRuolo" placeholder="Editor">
+        </div>
+        <div class="col-12">
+          <label for="inputEmail" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail" placeholder="team@team.it">
+        </div>
+        <label for="inputGroupFile02">Foto</label>
+        <div class="col-12 input-group mb-3">
+          <input type="file" class="form-control" id="inputGroupFile02">
+          <label class="input-group-text" for="inputGroupFile02">Carica</label>
+        </div>
+        <div class="col-12 text-center mt-4">
+          <button type="submit" class="btn btn-primary px-5">Aggiungi</button>
+        </div>
       </form>
     </div>
     <!-- Bootstrap -->

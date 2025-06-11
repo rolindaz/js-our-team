@@ -46,7 +46,7 @@ for (let i = 0; i < teamMembers.length; i++) {
   const memberMarkup = `
     <div class="col">
       <div class="card text-bg-dark d-flex flex-row border-0 rounded-0 mb-4">
-        <div class="flex-img">
+        <div>
           <img src="${img}" alt="">
         </div>
         <div class="p-2">
