@@ -5,4 +5,7 @@ body {
         font-size: 34px;
         color: rgb(185, 30, 102)
     };
+    img {
+        max-width: 100%;
+    }
 };

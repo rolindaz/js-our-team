@@ -1,8 +1,13 @@
 body {
     font-family: "Savate", sans-serif;
     font-optical-sizing: auto;
-    h1 {
-        font-size: 34px;
-        color: rgb(185, 30, 102)
+    .container {
+        h1 {
+            font-size: 34px;
+            color: rgb(185, 30, 102)
+        };
+        img {
+            max-width: 100px
+        };
     };
 };

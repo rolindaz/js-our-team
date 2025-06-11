@@ -3,37 +3,37 @@ const teamMembers = [
     name: "Marco Bianchi",
     role: "Designer",
     email: "marcobianchi@team.com",
-    img: "./img/male1.png"
+    img: "./assets/img/male1.png"
   },
   {
     name: "Laura Rossi",
     role: "Front-end Developer",
     email: "laurarossi@team.com",
-    img: "./img/female1.png"
+    img: "./assets/img/female1.png"
   },
   {
     name: "Giorgio Verdi",
     role: "Back-end Developer",
     email: "giorgioverdi@team.com",
-    img: "./img/male2.png"
+    img: "./assets/img/male2.png"
   },
   {
     name: "Marta Ipsum",
     role: "SEO Specialist",
     email: "martarossi@team.com",
-    img: "./img/female2.png"
+    img: "./assets/img/female2.png"
   },
   {
     name: "Roberto Lorem",
     role: "SEO Specialist",
     email: "robertolorem@team.com",
-    img: "./img/male3.png"
+    img: "./assets/img/male3.png"
   },
   {
     name: "Daniela Amet",
     role: "Analyst",
     email: "danielaamet@team.com",
-    img: "./img/female3.png"
+    img: "./assets/img/female3.png"
   }
 ];
 
@@ -79,7 +79,7 @@ for (let i = 0; i < teamMembers.length; i++) {
   // - creare una variabile con un template literal in cui riporto il markup HTML con cui voglio rappresentare i miei oggetti e le loro proprietà, che riporterò con l'interpolazione delle variabili corrispondenti appena create
   const memberMarkup = `
     <div class="col">
-      <div class="card text-bg-dark rounded-0 d-flex mb-4">
+      <div class="card text-bg-dark d-flex flex-row border-0 rounded-0 mb-4">
         <div>
           <img src="${img}" alt="">
         </div>
